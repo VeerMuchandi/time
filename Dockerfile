@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/openshift3/php-55-rhel7
+FROM php:5.6-apache
 MAINTAINER Veer Muchandi veer@redhat.com
 COPY src/ /var/www/html/
 Expose 80
