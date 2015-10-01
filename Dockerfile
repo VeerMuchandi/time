@@ -2,5 +2,5 @@
 FROM openshift/php
 MAINTAINER Veer Muchandi veer@redhat.com
 COPY src/ /var/www/html/
-ENTRYPOINT ["/usr/bin/php","-f"]
+ENTRYPOINT ["/bin/bash","id"]
 Expose 80
