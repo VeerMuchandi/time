@@ -2,6 +2,6 @@
 FROM openshift/php
 MAINTAINER Veer Muchandi veer@redhat.com
 COPY src/ /var/www/html/
-RUN touch /entrypoint.sh && chmod +x /entrypoint.sh
+RUN cp entrypoint.sh / && chmod +x /entrypoint.sh
 ENTRYPOINT ["./entrypoint.sh"]
 Expose 80
