@@ -4,5 +4,5 @@ MAINTAINER Veer Muchandi veer@redhat.com
 COPY src/ /var/www/html/
 COPY entrypoint.sh /
 #RUN chmod +x /entrypoint.sh
-ENTRYPOINT ["./entrypoint.sh"]
+ENTRYPOINT ["entrypoint.sh"]
 Expose 80
