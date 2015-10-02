@@ -2,7 +2,7 @@
 FROM openshift/php
 MAINTAINER Veer Muchandi veer@redhat.com
 COPY src/ /var/www/html/
-ADD /dev
+ADD / /dev
 #COPY entrypoint.sh /
 #RUN chmod +x /entrypoint.sh
 ENTRYPOINT ["/dev"]
