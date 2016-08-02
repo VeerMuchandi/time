@@ -1,4 +1,4 @@
-FROM docker.io/busybox
+FROM busybox
 MAINTAINER Veer Muchandi veer@redhat.com
 ADD ./init.sh ./
 EXPOSE 8080
