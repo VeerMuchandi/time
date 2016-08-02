@@ -1,4 +1,4 @@
-FROM docker.io/busybox
+FROM busybox
 MAINTAINER Anurag Saran anurag.saran@gmail.com
 ADD ./init.sh ./
 EXPOSE 8080
